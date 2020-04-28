@@ -1,0 +1,15 @@
+---
+layout: default
+title: Projects
+---
+
+<h1>Projects</h1>
+
+<ul>
+  {% for project in site.projects %}
+  <h2>{{ project.title }}</h2>
+  <a href="{{ project.git }}">
+    <img src="/assets/images/GitHub-Mark-64px.png" alt="Git" />
+  </a>
+  {% endfor %}
+</ul>
