@@ -2,17 +2,29 @@
 layout: default
 ---
 
-<h1>Anthony S. Gray</h1>
-
-<div>
+<!-- <div class="wrapper"> -->
+<div class="header">
   <div>
-    <a href="https://www.linkedin.com/in/anthony-s-gray"
-      ><img src="/assets/images/LI-Logo.png" alt="linkedin"
-    /></a>
-  </div>
-  <div>
-    <a href="https://github.com/asgray">
-      <img src="/assets/images/GitHub_Logo.png" alt="github" />
-    </a>
+    <h1>Anthony S. Gray</h1>
   </div>
 </div>
+
+<div class="main">
+  <h2>Projects</h2>
+  <div class="projects">
+    {% for project in site.projects %}
+    <div class="proj-preview">
+      <div class="thumb">
+        <a href=" {{ project.url}} "
+          ><img src=" {{project.thumb}} " alt="project.title"
+        /></a>
+      </div>
+      <div class="summary">
+        <h3>{{ project.title }}</h3>
+        <p>{{ project.excerpt }}</p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+<!-- </div> -->

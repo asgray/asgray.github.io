@@ -1,3 +1,70 @@
-.current {
-  color: green;
+body {
+  background-color: black;
+  margin: 0;
+}
+nav {
+  margin-left: 8%;
+  margin-right: 8%;
+  text-align: center;
+  background-color: whitesmoke;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+img {
+  display: block;
+}
+h1,
+h2 {
+  text-align: center;
+  color: white;
+}
+
+.header {
+  // background-image: url("/assets/images/dna_wallpaper.jpg");
+  background-color: darkgreen;
+  height: 600px;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  z-index: -1;
+}
+
+.nav_element {
+  width: 100px;
+  height: auto;
+  display: inline;
+}
+
+.main {
+  margin-top: 550px;
+}
+.projects {
+  margin-left: 8%;
+  margin-right: 8%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-auto-rows: 1fr;
+}
+
+.projects > div {
+  background: #eee;
+}
+.projects > div:nth-child(odd) {
+  background: #ddd;
+}
+
+.proj-preview {
+  display: grid;
+  grid-auto-rows: 3fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+.proj-preview:hover {
+  border-style: solid;
+  border-width: 5px;
+  border-color: yellow;
+}
+.thumb > a img {
+  max-width: 400px;
+  max-height: 300px;
 }
