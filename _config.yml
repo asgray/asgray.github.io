@@ -26,5 +26,3 @@ plugins:
 excerpt_separator: <!--more-->
 
 theme: minima
-
-baseurl: https://anthonysgray.com/
