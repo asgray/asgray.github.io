@@ -26,3 +26,5 @@ plugins:
 excerpt_separator: <!--more-->
 
 theme: minima
+# baseurl: asgray.github.io
+github: [metadata]
