@@ -5,11 +5,36 @@ title: Blog
 
 <h1>Latest Posts</h1>
 
-<ul>
+<div class="prev-grid">
+  {% for post in site.posts %}
+  <a class="preview" href=" {{ post.url}} ">
+    <div class="thumb">
+      <img src=" {{post.thumb}} " alt="{{post.title}}" />
+      <div>
+        {{ post.title }} {{post.date}} {{ post.excerpt }}
+      </div>
+    </div>
+  </a>
+  {% endfor %}
+</div>
+<!-- <ul>
   {% for post in site.posts %}
   <li>
     <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
     {{ post.excerpt }}
   </li>
   {% endfor %}
-</ul>
+</ul> -->
+<!-- <div class="prev-grid">
+  {% for project in site.projects %}
+  <a class="preview" href=" {{ project.url}} ">
+    <div class="thumb">
+      <img src=" {{project.thumb}} " alt="{{project.title}}" />
+      <div>
+        <h3>{{ project.title }}</h3>
+        <p>{{ project.excerpt }}</p>
+      </div>
+    </div>
+  </a>
+  {% endfor %}
+</div> -->
