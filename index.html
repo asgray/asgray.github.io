@@ -2,29 +2,23 @@
 layout: default
 ---
 
-<!-- <div class="wrapper"> -->
 <div class="header">
-  <div>
-    <h1>Anthony S. Gray</h1>
-  </div>
+  <h1>Anthony S. Gray</h1>
 </div>
 
 <div class="main">
   <h2>Projects</h2>
-  <div class="projects">
+  <div class="prev-grid">
     {% for project in site.projects %}
-    <div class="proj-preview">
+    <a class="preview" href=" {{ project.url}} ">
       <div class="thumb">
-        <a href=" {{ project.url}} "
-          ><img src=" {{project.thumb}} " alt="project.title"
-        /></a>
+        <img src=" {{project.thumb}} " alt="project.title" />
+        <div>
+          <h3>{{ project.title }}</h3>
+          <p>{{ project.excerpt }}</p>
+        </div>
       </div>
-      <div class="summary">
-        <h3>{{ project.title }}</h3>
-        <p>{{ project.excerpt }}</p>
-      </div>
-    </div>
+    </a>
     {% endfor %}
   </div>
 </div>
-<!-- </div> -->

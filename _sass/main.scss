@@ -1,32 +1,40 @@
 body {
   background-color: black;
   margin: 0;
+  text-align: center;
 }
 nav {
-  margin-left: 8%;
-  margin-right: 8%;
-  text-align: center;
   background-color: whitesmoke;
   font-size: 20px;
   padding-bottom: 10px;
+  // position: fixed; /* Set the navbar to fixed position */
+  // top: 0px;
+  margin-left: 8%;
+  margin-right: 8%;
 }
 img {
   display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 h1,
 h2 {
-  text-align: center;
   color: white;
 }
 
 .header {
-  // background-image: url("/assets/images/dna_wallpaper.jpg");
+  background-image: url("/assets/images/dna_wallpaper.jpg");
   background-color: darkgreen;
   height: 600px;
   width: 100%;
-  text-align: center;
   position: fixed;
   z-index: -1;
+  top: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header > h1 {
 }
 
 .nav_element {
@@ -36,9 +44,9 @@ h2 {
 }
 
 .main {
-  margin-top: 550px;
+  margin-top: 650px;
 }
-.projects {
+.prev-grid {
   margin-left: 8%;
   margin-right: 8%;
   display: grid;
@@ -46,25 +54,25 @@ h2 {
   grid-auto-rows: 1fr;
 }
 
-.projects > div {
+.prev-grid > a {
   background: #eee;
 }
-.projects > div:nth-child(odd) {
+.prev-grid > a:nth-child(odd) {
   background: #ddd;
 }
 
-.proj-preview {
+.preview {
   display: grid;
   grid-auto-rows: 3fr 1fr;
   justify-items: center;
   align-items: center;
 }
-.proj-preview:hover {
+.preview:hover {
   border-style: solid;
   border-width: 5px;
   border-color: yellow;
 }
-.thumb > a img {
+.thumb > img {
   max-width: 400px;
-  max-height: 300px;
+  max-height: 400px;
 }
