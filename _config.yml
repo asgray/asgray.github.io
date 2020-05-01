@@ -24,3 +24,5 @@ plugins:
   - jekyll-seo-tag
 
 excerpt_separator: <!--more-->
+
+theme: minima
