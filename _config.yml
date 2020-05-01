@@ -28,3 +28,6 @@ excerpt_separator: <!--more-->
 theme: minima
 # baseurl: asgray.github.io
 github: [metadata]
+uri: "https://anthonysgray.com"
+url: "https://anthonysgray.com/"
+home: "https://anthonysgray.com/"
