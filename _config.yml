@@ -26,7 +26,7 @@ plugins:
 excerpt_separator: <!--more-->
 
 theme: minima
-# baseurl: asgray.github.io
+# baseurl: /
 github: [metadata]
 uri: "https://anthonysgray.com"
 url: "https://anthonysgray.com/"

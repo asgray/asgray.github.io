@@ -1,15 +1,16 @@
 <div class="navbar">
+  {% for item in site.data.navigation %}
+    <a class = 'nav_element' href='{{ site.url | append: item.link }}' {% if page.url == item.link %} class='current' {% endif %}> 
+      <div> {{ item.name }} </div> 
+    </a>
+  {% endfor %}
 
-    {% for item in site.data.navigation %}
-        <a class = 'nav_element' href='{{ item.link }}' {% if page.url == item.link %} class='current' {% endif %}> <div>{{ item.name }}</div> </a>
-    {% endfor %}
+    <a href="https://www.linkedin.com/in/anthony-s-gray">
+      <img class = 'nav_element' src="/assets/images/LI-Logo.png" alt="linkedin"/>
+    </a>
+    <a href="https://github.com/asgray">
+      <img class = 'nav_element' src="/assets/images/GitHub_Logo.png" alt="github"/> 
+    </a>
+</div>
 
-    <a href="https://www.linkedin.com/in/anthony-s-gray"
-    ><img class = 'nav_element' src="/assets/images/LI-Logo.png" alt="linkedin"
-  /></a>
-  <a href="https://github.com/asgray">
-    <img class = 'nav_element' src="/assets/images/GitHub_Logo.png" alt="github" /> </a
-  >
-
-  </div>
-  <div class="spacer"></div>
+<div class="spacer"></div>
