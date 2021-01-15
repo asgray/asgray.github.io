@@ -19,7 +19,15 @@ img {
 }
 h1,
 h2 {
-  color: var(--dark-grey);
+  color: black;
+  display: inline-block;
+  background: radial-gradient(var(--dark-grey) 50%, rgba(0, 0, 0, 0.1) 55%);
+  // background: radial-gradient(var(--dark-grey), var(--light-green));
+  // background-color: darkgreen;
+  line-height: 2em;
+  width: 13em;
+  height: 2em;
+  // box-shadow: 0 30px 40px rgba(0, 0, 0, 0.1);
 }
 a {
   text-decoration: none;
@@ -56,10 +64,14 @@ a:visited {
   padding: 5px;
   font-weight: bold;
 }
+.nav_element:hover {
+  text-shadow: 1px 1px var(--strong-green);
+}
 
 .header {
   background-image: url("/assets/images/Microarray.jpg");
-  background-color: darkgreen;
+  // background-color: darkgreen;
+  // background: radial-gradient(darkgreen, var(--strong-green));
   height: 50vh;
   // width: 100%;
   // position: fixed;

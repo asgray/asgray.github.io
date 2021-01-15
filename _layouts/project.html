@@ -8,3 +8,13 @@ layout: default
 </a>
 <img src="{{page.thumb}}" alt="" />
 {{ content }}
+
+{% for tag in site.tags %} 
+  {% if tag[0] == page.title %}
+    <div class="prev-grid">
+      {% for post in tag[1] %}
+        {% include postpreview.html %}
+      {% endfor %}
+    </div>
+  {% endif %} 
+{% endfor %}
