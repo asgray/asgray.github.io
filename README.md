@@ -7,8 +7,8 @@ TODO:
 - finalize layouts for project pages
 - finalize layouts for blog posts
 - populate About page
-- link blog posts to associated projects
 - style the whole thing
+- collapse navbar
 
 IMAGE IDEAS:
 
