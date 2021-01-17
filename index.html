@@ -2,29 +2,26 @@
 layout: default
 ---
 
-<div class="header">
-  <!-- <img src="/assets/images/thumbnail.png" alt="" /> -->
-  <h1>Anthony S. Gray</h1>
-  <ul>
-    <li>Life Science</li>
-    <li>Data Science</li>
-  </ul>
+<div class="two-col">
+  <div>
+    <h1>Anthony S. Gray</h1>
+    <h3>Life and Data Scientist</h3>
+  </div>
+  <div>
+    <h3>Latest Blog Post</h3>
+    <a class="preview" href=" {{ site.posts[0].url}} ">
+      <div>
+        {{ site.posts[0].title }} {{ site.posts[0].excerpt }}
+      </div>
+    </a>
+  </div>
+
 </div>
-<div class="wrapper">
-  <div class="main">
-    <h2>Projects</h2>
-    <div class="prev-grid">
-      {% for project in site.projects %}
-      <a class="preview" href=" {{ project.url}} ">
-        <div class="thumb">
-          <img src=" {{project.thumb}} " alt="{{project.title}}" />
-          <div>
-            <h3>{{ project.title }}</h3>
-            <p>{{ project.excerpt }}</p>
-          </div>
-        </div>
-      </a>
-      {% endfor %}
-    </div>
+<div>
+  <h2>Projects</h2>
+  <div class="prev-grid">
+    {% for project in site.projects %}
+      {% include projectpreview.html %}
+    {% endfor %}
   </div>
 </div>

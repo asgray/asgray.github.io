@@ -1,0 +1,15 @@
+<a class="preview" href=" {{ project.url}} ">
+    <div class="thumb">
+      <img src=" {{project.thumb}} " alt="{{project.title}}" />
+      <div>
+        <h3>{{ project.title }}</h3>
+        <p>{{ project.excerpt }}</p>
+        <h4>Tools Used</h4>
+        <ul class="tool-list">
+          {% for tool in project.tools %}
+            <li class='tool'>{{ tool }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </a>
