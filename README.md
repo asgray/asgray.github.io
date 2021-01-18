@@ -8,4 +8,3 @@ TODO:
 - finalize layouts for blog posts
 - populate About page
 - collapse navbar
-- get contact page working

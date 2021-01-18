@@ -2,11 +2,11 @@
 layout: project
 title: OptimalPack
 git: https://github.com/asgray/HikePlanner
-thumb: /assets/images/hikeplanner_thumb.png
+thumb: /assets/images/projects/hikeplanner_thumb.png
 tools: React.js MySQL Flask
 ---
 
-this project is about planning backpacking meals
+This is a data
 
 <!--more-->
 

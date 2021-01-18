@@ -1,8 +1,8 @@
 ---
 layout: project
-title: metagen
+title: Meta 'Omic Classification
 git: https://github.com/asgray/Meta-omic-ML-Classification
-thumb: /assets/images/metagen_thumb.png
+thumb: /assets/images/projects/metagen_thumb.png
 tools: Python
 ---
 
