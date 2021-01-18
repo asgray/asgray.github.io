@@ -1,4 +1,4 @@
-<div class="navbar navbar-expand-sm">
+<div class="navbar">
   {% for item in site.data.navigation %}
     <a class = 'nav_element' href='{{ site.url | append: item.link }}' {% if page.url == item.link %} class='current' {% endif %}> 
       <div> {{ item.name }} </div> 
