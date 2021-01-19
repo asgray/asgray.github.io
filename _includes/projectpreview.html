@@ -5,11 +5,12 @@
   </div>
   <div>
     <p>{{ project.excerpt }}</p>
-    <h4>Tools Used</h4>
+    <h4>Tools</h4>
     <ul class="tool-list">
       {% for tool in project.tools %}
         <li class='tool'>{{ tool }}</li>
       {% endfor %}
     </ul>
+    <div style="height:20px;"></div>
   </div>
 </a>
