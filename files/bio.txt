@@ -1,0 +1,10 @@
+Hello, my name is Anthony Gray, and I am an interdisciplinary scientist, programmer and nature enthusiast based in the Seattle area. Officially, my training is in biology, but it also includes social sciences, computer science, and just a little bit of legal training. I enjoy putting my diverse background to use solving technical problems and communicating complex ideas in straightforward and approachable ways.
+
+I am an avid learner with an interest in many subjects, from molecular biology to machine learning with a special interest in the behavior of systems. The effects of the environment on health and the interactions found within a metagenomic sample are examples of topics that I find fascinating. I have many other hobbies and interests including 3D art, simple robotics, and wilderness backpacking. This site was built to showcase my <a href="{{ site.baseurl }}{% link projects.html %}"><b>projects</b></a>, as well as the thought processes that produce them via the <a href="{{ site.baseurl }}{% link blog.html %}"><b>blog</b></a>.
+
+Education
+MS in bioinformatics from Johns Hopkins University
+BA in biology and anthropology from Bard College at Simon's Rock
+
+Personal Achievement
+2189.7 mile thru-hike of the Appalachian Trail
