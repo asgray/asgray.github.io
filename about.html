@@ -7,67 +7,23 @@ layout: default
     <div>
       <img src="/assets/images/portrait.jpg" alt="" />
     </div>
-    <div class='two-col'>
-      <div> 
-        <h3>Skills</h3>
-        <div class='center-left'>
-          <ul>
-            <li>Scientific Programming
-              <ul>
-                <li>Statistical Modeling</li>
-                <li>Machine Learning</li>
-                <li>Data Visualization</li>
-              </ul>
-            </li>
-            <li>Data Processing
-              <ul>
-                <li>Database Design</li>
-                <li>Data Pipelines</li>
-              </ul>
-            </li>
-            <li>Molecular Biology</li>
-            <li>Genetics and Genomics
-              <ul>
-                <li>Personalized Medicine</li>
-                <li>Metagenomics</li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-  
-      <div> 
-        <h3>Tools</h3>
-        <div class='center-left'>
-          <ul>
-            <li>Python
-              <ul>        
-                <li>Django</li>
-                <li>pandas</li>
-                <li>Scikit-Learn</li>
-                <li>BioPython</li>
-              </ul>
-            </li>
-            <li>R</li>
-            <li>SQL
-              <ul>
-                <li>MySQL</li>
-                <li>PostgreSQL</li>
-              </ul>
-            </li>
-            <li>Docker</li>
-            <li>React.js</li>
-            <li>HTML and CSS</li>
-            <li>Google Cloud</li>
-          </ul> 
-        </div>
-      </div>
+    <div>
+      <ul class='tool-list'>
+        <li> 
+          {% include skill-list.html %}
+        </li>
+        <li> 
+          {% include tool-list.html %}
+        </li>
+      </ul>
     </div>
+    <div style="height:40px;"> </div>
   </div>
+
   <div>
     <img src="/assets/images/katahdin.jpg" alt="" style="max-width:250px;" />
     <p>
-      
+      {% include bio.md %}
     </p>
   </div>
 </div>

@@ -21,11 +21,5 @@ layout: default
 </div>
 
 <div>
-  <h2>Projects</h2>
-  <div class="two-col">
-    <!-- <div class="prev-grid"> -->
-    {% for project in site.projects %}
-      {% include projectpreview.html %}
-    {% endfor %}
-  </div>
+  {% include projects.html %}
 </div>
