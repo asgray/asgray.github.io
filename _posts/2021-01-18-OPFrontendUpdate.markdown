@@ -8,7 +8,7 @@ thumb: /assets/images/posts/optimalpack-food.png
 project: OptimalPack
 ---
 
-I have been learning React.js by using it to build a real UI for the OptimalPack database.<!--more-->
+I learned React.js by using it to build a real UI for the OptimalPack database.<!--more-->
 The interface used to look like this:
 ![old-img]
 

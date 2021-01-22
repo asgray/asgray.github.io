@@ -1,3 +1,1 @@
-TODO:
-
-- populate and format About page
+personal site
