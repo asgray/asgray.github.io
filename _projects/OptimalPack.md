@@ -6,7 +6,7 @@ thumb: /assets/images/projects/hikeplanner_thumb.png
 tools: [Python, React.js, MySQL, Flask]
 ---
 
-This application allows backpackers to plan trips and optimize their choice of gear and supplies.
+A database for backpackers to plan trips and optimize their choice of gear and supplies.
 
 <!--more-->
 
