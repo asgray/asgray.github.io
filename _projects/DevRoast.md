@@ -16,7 +16,7 @@ So far we have completed the docker-compose setup with a persistent database mou
 
 ![ERD](\assets\images\projects\dev-roast-erd.jpg)
 
-Most of the ERD show the stock Django User tables. The elements in the blue box have been added to support projects, comments, and a tagging scheme, and will likely be expanded in the future.
+Most of the ERD shows the stock Django User tables. The elements in the blue box have been added to support projects, comments, and a tagging scheme, and could be expanded in the future.
 
 ![ERD](\assets\images\projects\devroast_landing.png)
 ![ERD](\assets\images\projects\devroast_detail.png)
