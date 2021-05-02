@@ -4,12 +4,17 @@
       <div> {{ item.name }} </div> 
     </a>
   {% endfor %}
-
-    <a href="https://www.linkedin.com/in/anthony-s-gray" target='_blank'>
+  <a class = 'nav_element' href="https://www.linkedin.com/in/anthony-s-gray" target='_blank' rel="noopener" {% if page.url == item.link %} class='current' {% endif %}> 
+    <div> LinkedIn </div> 
+  </a>
+  <a class = 'nav_element' href="https://github.com/asgray" target='_blank' rel="noopener" {% if page.url == item.link %} class='current' {% endif %}> 
+    <div> GitHub </div> 
+  </a>
+    <!-- <a href="https://www.linkedin.com/in/anthony-s-gray" target='_blank'>
       <img class = 'nav_element' src="/assets/images/LI-Logo.png" alt="linkedin"/>
     </a>
     <a href="https://github.com/asgray" target='_blank'>
       <img class = 'nav_element' src="/assets/images/GitHub_Logo.png" alt="github"/> 
-    </a>
+    </a> -->
 </div>
 <div style="height:40px;"> </div>
