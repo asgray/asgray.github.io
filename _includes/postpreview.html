@@ -1,6 +1,9 @@
 <a class="preview" href=" {{ post.url}} ">
     <div class="thumb">
-        <h3>{{ post.title }}</h3> 
+        <div>
+            <h3>{{ post.title }}</h3> 
+            <h5>{{ post.project }}</h5>
+        </div>  
         <img src=" {{post.thumb}} " alt="{{post.title}}" />
         <div>
             <p>{{post.date | date: "%B %-d %Y"}}</p> 
