@@ -23,6 +23,7 @@ GEM
       http_parser.rb (~> 0)
     ethon (0.15.0)
       ffi (>= 1.15.0)
+    eventmachine (1.2.7)
     eventmachine (1.2.7-x64-mingw32)
     execjs (2.8.1)
     faraday (1.10.0)
@@ -44,11 +45,17 @@ GEM
     faraday-multipart (1.0.3)
       multipart-post (>= 1.2, < 3)
     faraday-net_http (1.0.1)
+<<<<<<< HEAD
     faraday-net_http_persistent (1.2.0)
     faraday-patron (1.0.0)
     faraday-rack (1.0.0)
     faraday-retry (1.0.3)
     ffi (1.15.5-x64-mingw32)
+=======
+    faraday-net_http_persistent (1.1.0)
+    ffi (1.15.1)
+    ffi (1.15.1-x64-mingw32)
+>>>>>>> master
     forwardable-extended (2.6.0)
     gemoji (3.0.1)
     github-pages (225)
@@ -232,6 +239,11 @@ GEM
     minitest (5.15.0)
     multipart-post (2.1.1)
     nokogiri (1.13.3-x64-mingw32)
+<<<<<<< HEAD
+=======
+      racc (~> 1.4)
+    nokogiri (1.13.3-x86_64-linux)
+>>>>>>> master
       racc (~> 1.4)
     octokit (4.22.0)
       faraday (>= 0.9)
@@ -240,7 +252,11 @@ GEM
       forwardable-extended (~> 2.6)
     public_suffix (4.0.6)
     racc (1.6.0)
+<<<<<<< HEAD
     rb-fsevent (0.11.1)
+=======
+    rb-fsevent (0.11.0)
+>>>>>>> master
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     rexml (3.2.5)
@@ -269,13 +285,20 @@ GEM
       tzinfo (>= 1.0.0)
     unf (0.1.4)
       unf_ext
+<<<<<<< HEAD
     unf_ext (0.0.8.1-x64-mingw32)
     unicode-display_width (1.8.0)
+=======
+    unf_ext (0.0.7.7)
+    unf_ext (0.0.7.7-x64-mingw32)
+    unicode-display_width (1.7.0)
+>>>>>>> master
     wdm (0.1.1)
     zeitwerk (2.5.4)
 
 PLATFORMS
   x64-mingw32
+  x86_64-linux
 
 DEPENDENCIES
   github-pages
