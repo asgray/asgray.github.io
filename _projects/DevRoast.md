@@ -3,7 +3,7 @@ layout: project
 title: DevRoast
 git: https://github.com/devroastproject/devroastproject
 thumb: /assets/images/projects/code_quality_2.png
-tools: [Python, Javascript, Docker-Compose, React.js, PostgreSQL, Django]
+tools: [Python, Javascript, Docker, React.js, PostgreSQL, Django, Cypress]
 ---
 
 An application that allows new software developers to post their projects for feedback.
