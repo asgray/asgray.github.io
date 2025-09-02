@@ -56,3 +56,11 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
+
+.highlight {
+  height: 95px;
+}
+.highlight img{
+  max-height: 100%;
+  max-width: 100%;
+}

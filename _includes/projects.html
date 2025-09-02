@@ -1,7 +1,14 @@
 <h1>Projects</h1>
 
 <div class="two-col">
-  {% for project in site.projects %}
+  {% assign current_projects = site.projects | where: "current", true %}
+  {% assign past_projects = site.projects | where: "current", false %}
+
+  {% for project in current_projects %}
+    {% include projectpreview.html %}
+  {% endfor %}
+
+  {% for project in past_projects %}
     {% include projectpreview.html %}
   {% endfor %}
 </div>

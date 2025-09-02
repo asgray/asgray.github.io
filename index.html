@@ -5,7 +5,15 @@ layout: default
 <div class="two-col">
   <div>
     <h1>Anthony S. Gray</h1>
+    <h2>Scientific Programmer</h2>
     <h3>MS Bioinformatics</h3>
+    <br/>
+    <h4>Blog Highlight</h4>
+      {% for post in site.posts %} 
+        {% if post.highlighted %}
+          {% include highlight.html %}
+        {% endif %}
+      {% endfor %}
   </div>
   <div>
     <h3>Latest Blog Post</h3>

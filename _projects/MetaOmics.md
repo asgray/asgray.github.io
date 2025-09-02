@@ -4,6 +4,7 @@ title: Meta 'Omic Classification
 git: https://github.com/asgray/Meta-omic-ML-Classification
 thumb: /assets/images/projects/metagen_thumb.png
 tools: [Python, pandas, scikit-learn, Google Cloud]
+current: false
 ---
 
 This project examined and compared the performance of four machine learning classifiers on metagenomic and metatranscriptomic samples.

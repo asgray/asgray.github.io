@@ -25,6 +25,7 @@ GEM
       ffi (>= 1.15.0)
     eventmachine (1.2.7)
     eventmachine (1.2.7-x64-mingw32)
+    eventmachine (1.2.7-x86-mingw32)
     execjs (2.8.1)
     faraday (1.10.0)
       faraday-em_http (~> 1.0)
@@ -51,6 +52,7 @@ GEM
     faraday-retry (1.0.3)
     ffi (1.15.5)
     ffi (1.15.5-x64-mingw32)
+    ffi (1.15.5-x86-mingw32)
     forwardable-extended (2.6.0)
     gemoji (3.0.1)
     github-pages (225)
@@ -235,6 +237,8 @@ GEM
     multipart-post (2.1.1)
     nokogiri (1.13.6-x64-mingw32)
       racc (~> 1.4)
+    nokogiri (1.13.6-x86-mingw32)
+      racc (~> 1.4)
     nokogiri (1.13.6-x86_64-linux)
       racc (~> 1.4)
     octokit (4.22.0)
@@ -275,12 +279,14 @@ GEM
       unf_ext
     unf_ext (0.0.8.1)
     unf_ext (0.0.8.1-x64-mingw32)
+    unf_ext (0.0.8.1-x86-mingw32)
     unicode-display_width (1.8.0)
     wdm (0.1.1)
     zeitwerk (2.5.4)
 
 PLATFORMS
   x64-mingw32
+  x86-mingw32
   x86_64-linux
 
 DEPENDENCIES

@@ -4,6 +4,7 @@ title: OptimalPack
 git: https://github.com/asgray/HikePlanner
 thumb: /assets/images/projects/hikeplanner_thumb.png
 tools: [Python, React.js, MySQL, Flask]
+current: true
 ---
 
 A database for backpackers to plan trips and optimize their choice of gear and supplies.

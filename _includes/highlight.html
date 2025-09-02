@@ -1,0 +1,15 @@
+<a class="preview" href=" {{ post.url}} ">
+    <div class="thumb">
+        <div>
+            <h3>{{ post.title }}</h3> 
+            <!-- <h5>{{ post.project }}</h5> -->
+            <div class="highlight">
+                <img src=" {{post.thumb}} " alt="{{post.title}}" />    
+            </div>
+        </div>  
+        <div>
+            <!-- <p>{{post.date | date: "%B %-d %Y"}}</p>  -->
+            <p>{{ post.excerpt }}</p>
+        </div>
+    </div>
+</a>
